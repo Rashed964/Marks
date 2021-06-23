@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marks</title>
+    <link rel="icon" href="images/marks.jpg">
+</head>
+<body>
+    <script>
+        var marks= prompt("Input Your Number");
+        if(marks>=91 && marks<=100){
+        document.write("You got golden GPA-5");}
+        else if(marks>=81 && marks<=90){
+            document.write("<h1>You got GPA-5</h1>");
+        }
+        else if(marks>=71 && marks<=80){
+            document.write("<h1>You got A</h1>");
+        }
+        else if(marks>=61 && marks<=70){
+            document.write("<h1>You got A-</h1>");
+        }
+        else if(marks>=51 && marks<=60){
+            document.write("<h1>You got B</h1>");
+        }
+        else if(marks>=41 && marks<=50){
+            document.write("<h1>You got B-</h1>");
+        }
+        else if(marks>=33 && marks<=40){
+            document.write("<h1>You got C</h1>");
+        }
+        else if(marks<33){
+            document.write("<h1>You got F</h1>");
+        }
+        else{
+            document.write("<h1>Please enter valid mark</h1>");
+        }
+    </script>
+</body>
+</html>
